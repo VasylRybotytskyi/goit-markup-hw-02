@@ -4,13 +4,6 @@
     --accent-text-color:#2196F3;
     --white-text-color:#FFFFFF;
 }
-/* #FFFFFF - заголовок
-#2196F3 - синій колір 
-#000000 -logo
-#212121 -загаловки h2
-#757575 - text
-list скидує крапки
-*/
 .list {
     color:var(--primart-text-color) ;
     list-style: none;
@@ -63,7 +56,7 @@ body {
 }
 /*Hero*/
 .hero-title {
-    /* color:#FFFFFF ;*/
+    /* color:#FFFFFF ;    - на білому фоні колір не видимий*/    
 
     font-weight: 900;
     font-size: 44px;
@@ -117,14 +110,14 @@ body {
 
 /*Footer*/
 .list .link {
-    /*color: var(--white-text-color);*/
+    /*color: var(--white-text-color);  - на білому фоні текст не видимий*/ 
 
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
 .list .contacts {
-    /*color: rgba(255, 255, 255, 0.6);*/
+    /*color: rgba(255, 255, 255, 0.6);   - на білому фоні колір не видимий*/
 
     font-weight: 400;
     font-size: 14px;
