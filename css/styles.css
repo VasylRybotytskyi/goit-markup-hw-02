@@ -1,0 +1,158 @@
+:root {
+    --primart-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --white-text-color:#FFFFFF;
+}
+/* #FFFFFF - заголовок
+#2196F3 - синій колір 
+#000000 -logo
+#212121 -загаловки h2
+#757575 - text
+list скидує крапки
+*/
+.list {
+    color:var(--primart-text-color) ;
+    list-style: none;
+}
+body {
+     background-color:#FFFFFF ; 
+     font-family:"Roboto", sans-serif;
+     color: #757575;
+     ;
+    /*logo*/
+}
+.logo {
+    color:#000000 ;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-web {
+    color: var(--accent-text-color);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+/*site-nav*/
+.site-nav .link{
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-text-color);
+    /* Contact*/
+}
+.contact .link {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.contact a:hover, .contact a:focus {
+    color: var(--accent-text-color);
+}
+/*Hero*/
+.hero-title {
+    /* color:#FFFFFF ;*/
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+/*Button*/
+.button {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    cursor: pointer;
+}
+/*Our advantages*/
+.list .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Section*/
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+/*Team*/
+.list .name {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.list .profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*Footer*/
+.list .link {
+    /*color: var(--white-text-color);*/
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.list .contacts {
+    /*color: rgba(255, 255, 255, 0.6);*/
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.list .contacts:hover, .list .contacts:focus{
+    color: var(--accent-text-color);
+}
+
+/*Page portfolio*/
+.buttons .text {
+    color: var(--title-text-color);
+
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.btn .subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
