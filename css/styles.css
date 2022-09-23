@@ -10,8 +10,12 @@
 }
 body {
      background-color:#FFFFFF ; 
-     font-family:"Roboto", sans-serif;
      color: #757575;
+
+     font-family:"Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+    line-height: 24px;
      ;
     /*logo*/
 }
@@ -45,7 +49,7 @@ body {
     /* Contact*/
 }
 .contact .link {
-    color: var(--title-text-color);
+    color: var(--primart-text-color);
     
     font-weight: 500;
     font-size: 14px;
@@ -55,23 +59,35 @@ body {
     color: var(--accent-text-color);
 }
 /*Hero*/
-.hero-title {
-    /* color:#FFFFFF ;    - на білому фоні колір не видимий*/    
+.hero {
+    background: #2F303A;
+
+}
+.hero .hero-title {
+     color:#FFFFFF ;     
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 60px; 
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /*Button*/
-.button {
+.hero button {
+    display: inline-block;
+
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     cursor: pointer;
+    
+
 }
 /*Our advantages*/
 .list .title {
@@ -81,18 +97,19 @@ body {
     font-size: 14px;
     line-height: 16px;
 }
-.list .text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
+
 /*Section*/
+.section.team {
+    background: #F5F4FA;
+}
 .section-title {
     color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /*Team*/
 .list .name {
@@ -101,30 +118,43 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+/*.list .iteam {
+    
+}*/
 .list .profession {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*Footer*/
-.list .link {
-    /*color: var(--white-text-color);  - на білому фоні текст не видимий*/ 
+.control {
+    background: #2F303A;
+}
+.control .logo {
+    color: var(--white-text-color);
+}
+.list .link-adress {
+    color: var(--white-text-color); 
 
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
 .list .contacts {
-    /*color: rgba(255, 255, 255, 0.6);   - на білому фоні колір не видимий*/
+    color: rgba(255, 255, 255, 0.6);  
 
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
 .list .contacts:hover, .list .contacts:focus{
-    color: var(--accent-text-color);
+    color: var(--white-text-color);
 }
 
 /*Page portfolio*/
@@ -136,6 +166,11 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+}
+.buttons .text:hover,
+.buttons .text:focus {
+    background-color: var(--accent-text-color);
+    color: var(--white-text-color);
 }
 .btn .title {
     color: var(--title-text-color);
