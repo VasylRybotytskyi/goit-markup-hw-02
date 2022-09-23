@@ -7,6 +7,8 @@
 .list {
     color:var(--primart-text-color) ;
     list-style: none;
+    
+    
 }
 body {
      background-color:#FFFFFF ; 
@@ -25,6 +27,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    text-decoration: none;
 }
 .logo-web {
     color: var(--accent-text-color);
@@ -40,6 +43,9 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+
+    text-decoration: none;
+
 }
 .site-nav .link.current {
     color: var(--accent-text-color);
@@ -54,6 +60,9 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+
+    text-decoration: none;
+
 }
 .contact a:hover, .contact a:focus {
     color: var(--accent-text-color);
@@ -135,6 +144,9 @@ body {
 /*Footer*/
 .control {
     background: #2F303A;
+
+    text-decoration: none;
+
 }
 .control .logo {
     color: var(--white-text-color);
@@ -145,6 +157,12 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+
+    text-decoration: none;
+}
+.list .link-adress:hover,
+.list .link-adress:focus {
+    color: var(--accent-text-color);
 }
 .list .contacts {
     color: rgba(255, 255, 255, 0.6);  
@@ -152,6 +170,9 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+
+    text-decoration: none;
+
 }
 .list .contacts:hover, .list .contacts:focus{
     color: var(--white-text-color);
@@ -166,6 +187,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+}
+.buttons {
+    list-style: none;
 }
 .buttons .text:hover,
 .buttons .text:focus {
@@ -183,4 +207,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+}
+.btn {
+    list-style: none;
 }
