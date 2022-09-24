@@ -15,26 +15,26 @@ body {
      color: #757575;
 
      font-family:"Roboto", sans-serif;
-     font-weight: 400;
      font-size: 14px;
-    line-height: 24px;
-     ;
+     line-height: 1.7;
+     
     /*logo*/
 }
 .logo {
     color:#000000 ;
-
+    font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     text-decoration: none;
+
 }
 .logo-web {
     color: var(--accent-text-color);
 
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
 }
 /*site-nav*/
 .site-nav .link{
@@ -42,7 +42,7 @@ body {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 
     text-decoration: none;
 
@@ -59,7 +59,7 @@ body {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 
     text-decoration: none;
 
@@ -80,22 +80,20 @@ body {
     line-height: 60px; 
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 /*Button*/
 .hero button {
-    display: inline-block;
 
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     cursor: pointer;
-    
+    font-family: inherit;
 
 }
 /*Our advantages*/
@@ -126,7 +124,7 @@ body {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -134,9 +132,8 @@ body {
     
 }*/
 .list .profession {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -146,6 +143,7 @@ body {
     background: #2F303A;
 
     text-decoration: none;
+    font-style: normal;
 
 }
 .control .logo {
@@ -153,10 +151,7 @@ body {
 }
 .list .link-adress {
     color: var(--white-text-color); 
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 
     text-decoration: none;
 }
@@ -167,9 +162,7 @@ body {
 .list .contacts {
     color: rgba(255, 255, 255, 0.6);  
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 
     text-decoration: none;
 
@@ -186,7 +179,7 @@ body {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
 }
 .buttons {
     list-style: none;
@@ -201,12 +194,11 @@ body {
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 }
 .btn .subtitle {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
 }
 .btn {
     list-style: none;
